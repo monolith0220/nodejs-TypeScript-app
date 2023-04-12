@@ -18,12 +18,6 @@ img {
   vertical-align: bottom;
 }
 
-.container {
-  width: 92%;
-  max-width: 720px;
-  margin: 0 auto;
-}
-
 .fruitsList {
   display: grid;
   gap: 30px;
@@ -38,17 +32,6 @@ img {
 .fruitsList img {
   aspect-ratio: 4 / 3;
   object-fit: cover;
-}
-
-.text {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 10px;
-}
-
-.text p {
-  font-size: 36px;
 }
 
 @media (min-width: 768px) {
